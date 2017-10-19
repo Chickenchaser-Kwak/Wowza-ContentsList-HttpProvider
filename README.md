@@ -25,8 +25,8 @@ Then you can get a http response whici is listing all .mp4 files in {WowzaInstal
 
 ```json
 [{"path":"testStream","lastModified":1508144685235}, 
-{"path":"testStream","lastModified":1508142934912}, 
-{"path":"testStream","lastModified":1508142976607}]
+{"path":"testStream_0","lastModified":1508142934912}, 
+{"path":"testStream_1","lastModified":1508142976607}]
 ```
 
 = Reference =
