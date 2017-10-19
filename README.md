@@ -3,7 +3,7 @@ HttpProvider for WowzaEngine to list all mp4 files in contents folder
 
 = How To Use =
 1. Open project using Eclipse with Wowza IDE.
-2. Configure build.xml file. You probably set wowza.lib.dir property value to your Wowza Installation dir.
+2. Configure build.xml file if you install WowzaEngine at a different path.
 3. Compile and build. It will automatically generate a jar file(ContentsListProvider.jar) under {WowzaInstallDir}/lib folder.
 
 4. Add below lines to {WowzaInstallDir}/conf/VHost.xml.
@@ -30,4 +30,5 @@ Then you can get a http response whici is listing all .mp4 files in {WowzaInstal
 ```
 
 = Reference =
+
 https://www.wowza.com/docs/how-to-create-an-http-provider
